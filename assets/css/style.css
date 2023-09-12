@@ -133,7 +133,7 @@ a {
     border-left: 2px solid var(--color-background);
     position: absolute;
     top: 0;
-    left: -1px;
+    left: -2px;
     height: var(--dot-offset);
 }
 
