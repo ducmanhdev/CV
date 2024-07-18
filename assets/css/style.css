@@ -213,20 +213,43 @@ a {
     padding-left: 0;
     margin: 0;
 }
+
 .ul-skills li {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 6px;
     text-align: center;
-    background-color: rgba(249,250,251,0.2);
+    background-color: rgba(249, 250, 251, 0.2);
     color: #fff;
     padding: 6px 10px;
     border-radius: 8px;
     font-size: 14px;
     margin: 0;
 }
-.ul-skills li img{
+
+.ul-skills li img {
     width: 20px;
+    height: auto;
+}
+
+.tech-stack {
+    font-weight: bold
+}
+
+.tech-stack ol {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.tech-stack li + li {
+    margin-top: 0;
+}
+
+.tech-stack img {
+    width: 24px;
     height: auto;
 }
